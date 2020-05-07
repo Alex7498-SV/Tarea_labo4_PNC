@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MainController {
 	
-	@RequestMapping("/p")
+	@RequestMapping("/producto")
 	public ModelAndView initMain() {
 		Producto producto = new Producto();
 		ModelAndView mav = new ModelAndView();
